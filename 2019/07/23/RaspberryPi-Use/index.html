@@ -93,17 +93,17 @@
   };
 </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="#Raspberry 烧录要求 ##SD卡要求 ##烧录后处理 ##开启SSH ##开启VNC ##查看树莓派安装的软件dpkg -l |grep vim or which vim whereis vim or aptitude is Raspberrypi package manage tool ##删除Vim-tinyapt-get remove vim-tinyapt-get remove">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="kiloland.github.io/2019/07/18/hello-world/index.html">
+<meta property="og:title" content="RaspberryPi Use">
+<meta property="og:url" content="kiloland.github.io/2019/07/23/RaspberryPi-Use/index.html">
 <meta property="og:site_name" content="Kiloland">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="#Raspberry 烧录要求 ##SD卡要求 ##烧录后处理 ##开启SSH ##开启VNC ##查看树莓派安装的软件dpkg -l |grep vim or which vim whereis vim or aptitude is Raspberrypi package manage tool ##删除Vim-tinyapt-get remove vim-tinyapt-get remove">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-18T21:46:45.045Z">
+<meta property="og:updated_time" content="2019-07-24T10:21:37.972Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="RaspberryPi Use">
+<meta name="twitter:description" content="#Raspberry 烧录要求 ##SD卡要求 ##烧录后处理 ##开启SSH ##开启VNC ##查看树莓派安装的软件dpkg -l |grep vim or which vim whereis vim or aptitude is Raspberrypi package manage tool ##删除Vim-tinyapt-get remove vim-tinyapt-get remove">
 
 
 
@@ -111,7 +111,7 @@
 
   
   
-  <link rel="canonical" href="kiloland.github.io/2019/07/18/hello-world/">
+  <link rel="canonical" href="kiloland.github.io/2019/07/23/RaspberryPi-Use/">
 
 
 
@@ -122,7 +122,7 @@
 </script>
 
   
-  <title>Hello World | Kiloland</title>
+  <title>RaspberryPi Use | Kiloland</title>
   
 
 
@@ -281,7 +281,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="kiloland.github.io/2019/07/18/hello-world/">
+    <link itemprop="mainEntityOfPage" href="kiloland.github.io/2019/07/23/RaspberryPi-Use/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="JY">
@@ -298,7 +298,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World
+          <h1 class="post-title" itemprop="name headline">RaspberryPi Use
 
               
             
@@ -324,10 +324,24 @@
                 
               
 
-              <time title="Erstellt: 2019-07-18 22:46:45" itemprop="dateCreated datePublished" datetime="2019-07-18T22:46:45+01:00">2019-07-18</time>
+              <time title="Erstellt: 2019-07-23 23:21:45" itemprop="dateCreated datePublished" datetime="2019-07-23T23:21:45+01:00">2019-07-23</time>
             </span>
           
 
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-07-24 11:21:37" itemprop="dateModified" datetime="2019-07-24T11:21:37+01:00">2019-07-24</time>
+              </span>
+            
           
 
           
@@ -364,19 +378,20 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>#Raspberry 烧录要求</p>
+<p>##SD卡要求</p>
+<p>##烧录后处理</p>
+<p>##开启SSH</p>
+<p>##开启VNC</p>
+<p>##查看树莓派安装的软件<br>dpkg -l |grep vim</p>
+<p>or</p>
+<p>which vim</p>
+<p>whereis vim</p>
+<p>or</p>
+<p>aptitude is Raspberrypi package manage tool</p>
+<p>##删除Vim-tiny<br>apt-get remove vim-tiny<br>apt-get remove vim-common</p>
+<p>##安装vim-full<br>apt-get install vim</p>
+<p>##Edit vimrc<br>vimrc</p>
 
       
     </div>
@@ -411,15 +426,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/07/18/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/07/23/RaspberryPi-Use/" rel="prev" title="RaspberryPi Use">
-                RaspberryPi Use <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -463,17 +478,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Übersicht
-          </li>
-        </ul>
-      
 
-      <div class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -517,23 +523,6 @@
         </div>
       </div>
 
-      
-      <!--noindex-->
-        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-            
-            
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </div>
-      <!--/noindex-->
       
 
       
